@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+    
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://pbs.twimg.com/media/FpGIs-BaQAI6Iqm?format=jpg&name=900x900");
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+
+            color: whitesmoke;
+         }
+
+        .time {
+            font-size: 250px;
+            font-weight: bold;
+        }
+
+        .greeting {
+            font-size: 35px;
+            color: black;
+        }
+
+        .todo {
+            font-size: 20px;
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">
+            <script src="index(1).js"></script>
+        </div>
+        <div class="greeting">HELLO! GOODNIGHT </div>
+        <div class="todo">퇴근하자</div>      
+    </div>
+
+    <div class="quote">
+        <div id="author" class="author"></div>
+        <div id="content" class="content"></div>
+        <script src="index.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
